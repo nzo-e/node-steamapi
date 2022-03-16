@@ -298,7 +298,7 @@ Get users level.
 
 <a name="SteamAPI+getUserOwnedGames"></a>
 
-### steamAPI.getUserOwnedGames(id) ⇒ <code>Promise.&lt;Array.&lt;Game&gt;&gt;</code>
+### steamAPI.getUserOwnedGames(id, [includeAppInfo], [includePlayedFreeGames]) ⇒ <code>Promise.&lt;Array.&lt;Game&gt;&gt;</code>
 Get users owned games.
 
 **Kind**: instance method of [<code>SteamAPI</code>](#SteamAPI)  
@@ -307,6 +307,8 @@ Get users owned games.
 | Param | Type | Description |
 | --- | --- | --- |
 | id | <code>string</code> | User ID |
+| [includeAppInfo] | <code>boolean</code> | <code>true</code> | Include App Info |
+| [includePlayedFreeGames] | <code>boolean</code> | <code>true</code> | Include Played Free Games |
 
 <a name="SteamAPI+getUserRecentGames"></a>
 
