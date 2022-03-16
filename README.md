@@ -81,7 +81,7 @@ steam.getUserSummary('76561198146931523').then(summary => {
 		- [steamAPI.getUserFriends(id) ⇒ <code>Promise.&lt;Array.&lt;Friend&gt;&gt;</code>](#steamapigetuserfriendsid-%E2%87%92-codepromiseltarrayltfriendgtgtcode)
 		- [steamAPI.getUserGroups(id) ⇒ <code>Promise.&lt;Array.&lt;string&gt;&gt;</code>](#steamapigetusergroupsid-%E2%87%92-codepromiseltarrayltstringgtgtcode)
 		- [steamAPI.getUserLevel(id) ⇒ <code>Promise.&lt;number&gt;</code>](#steamapigetuserlevelid-%E2%87%92-codepromiseltnumbergtcode)
-		- [steamAPI.getUserOwnedGames(id, [includeAppInfo], [includePlayedFreeGames]) ⇒ <code>Promise.&lt;Array.&lt;Game&gt;&gt;</code>](#steamapi-getuserownedgamesid-includeappinfo-includeplayedfreegames-%E2%87%92-codepromiseltarrayltgamegtgtcode)
+		- [steamAPI.getUserOwnedGames(id, [includeAppInfo], [includePlayedFreeGames]) ⇒ <code>Promise.&lt;Array.&lt;Game&gt;&gt;</code>](#steamapigetuserownedgamesid-%E2%87%92-codepromiseltarrayltgamegtgtcode)
 		- [steamAPI.getUserRecentGames(id) ⇒ <code>Promise.&lt;Array.&lt;RecentGame&gt;&gt;</code>](#steamapigetuserrecentgamesid-%E2%87%92-codepromiseltarrayltrecentgamegtgtcode)
 		- [steamAPI.getUserServers([hide], [key]) ⇒ <code>Promise.&lt;PlayerServers&gt;</code>](#steamapigetuserservershide-key-%E2%87%92-codepromiseltplayerserversgtcode)
 		- [steamAPI.getUserStats(id, app) ⇒ <code>Promise.&lt;PlayerStats&gt;</code>](#steamapigetuserstatsid-app-%E2%87%92-codepromiseltplayerstatsgtcode)
